@@ -125,9 +125,9 @@ public:
             if (board[0][i] == c && board[1][i] == c && board[2][i] == c)
                 return true;
         }
-        // diagonal utama \
+        // diagonal utama
         if (board[0][0] == c && board[1][1] == c && board[2][2] == c) return true;
-        // diagonal kedua /
+        // diagonal kedua
         if (board[0][2] == c && board[1][1] == c && board[2][0] == c) return true;
         return false;
     }
